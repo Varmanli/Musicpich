@@ -13,10 +13,10 @@ function Header() {
         <img src={logo} alt="logo" />
       </div>
       <button
-        className="flex justify-center items-center gap-2 bg-[#37C25E] rounded-xl p-2 ml-10 md:ml-20 hover:bg-zinc-600 transition-all"
+        className="flex justify-center text-[10px] lg:text-[17px] items-center gap-2 bg-[#37C25E] rounded-xl p-2 ml-10 md:ml-20 hover:bg-zinc-600 transition-all"
         onClick={randomSongHandler}
       >
-        <p className="hidden md:block">پخش تصادفی موسیقی</p>
+        <p>پخش تصادفی موسیقی</p>
         <FaRandom />
       </button>
     </div>

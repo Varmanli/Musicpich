@@ -15,8 +15,8 @@ function SliderMusic({ image, title, name, id }) {
         />
       </div>
       <div className="flex flex-col gap-3 md:gap-7">
-        <h3 className="text-[20px] md:text-[35px]">{title}</h3>
-        <h4 className="text-[15px] md:text-[30px]">{name}</h4>
+        <h3 className="text-[25px] md:text-[35px]">{title}</h3>
+        <h4 className="text-[20px] md:text-[30px]">{name}</h4>
         <div className="flex justify-center items-center gap-3 ">
           <a onClick={() => setSongId(id)}>
             <PlayButton />
