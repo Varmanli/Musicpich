@@ -88,7 +88,7 @@ function MusicPlayer() {
             />
             <p>{timeFormat(songTime.duration)}</p>
           </div>
-          <div className="flex flex-row-reverse justify-center md:gap-20 gap-5  items-center h-[70px]">
+          <div className="flex flex-row-reverse justify-center md:gap-[370px] gap-5  items-center h-[70px]">
             <div className="flex flex-row-reverse items-center md:gap-10">
               <img
                 src={activeSong.image}
