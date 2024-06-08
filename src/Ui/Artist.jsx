@@ -4,7 +4,7 @@ function Artist() {
   return (
     <div id="artists">
       <h3 className="text-[20px] pr-5 mt-10 font-bold ">هنرمندان :</h3>
-      <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4  m-8 lg:flex lg:justify-between text-center ">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4  md:grid-cols-4  m-8 lg:flex lg:justify-between text-center ">
         <div className=" cursor-pointer">
           <img
             src="https://i1.delgarm.com/i/806/021120/65c6001b55034.jpeg"

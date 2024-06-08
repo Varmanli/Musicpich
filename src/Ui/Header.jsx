@@ -9,14 +9,14 @@ function Header() {
   }
   return (
     <div className="flex justify-between items-center p-5  font-semibold">
-      <div className="w-[200px] lg:w-[270px] cursor-pointer">
+      <div className="w-[150px] lg:w-[270px] cursor-pointer">
         <img src={logo} alt="logo" />
       </div>
       <button
-        className="flex justify-center items-center gap-2 bg-[#37C25E] rounded-xl p-2  hover:bg-zinc-600 transition-all"
+        className="flex justify-center items-center gap-2 bg-[#37C25E] rounded-xl p-2 ml-10 md:ml-20 hover:bg-zinc-600 transition-all"
         onClick={randomSongHandler}
       >
-        <p>پخش تصادفی موسیقی</p>
+        <p className="hidden md:block">پخش تصادفی موسیقی</p>
         <FaRandom />
       </button>
     </div>
