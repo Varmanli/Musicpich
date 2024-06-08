@@ -93,15 +93,14 @@ function MusicPlayer() {
               <img
                 src={activeSong.image}
                 alt={activeSong.title}
-                className="w-[70px] rounded-full mb-2 mx-2"
+                className="w-[70px] rounded-full m-2 mx-2"
               />
               <div className="felx felx-col gap-5 hidden md:block">
                 <p className="md:text-[20px] font-bold">{activeSong.title}</p>
                 <p className="md:text-[17px] ">{activeSong.artist}</p>
               </div>
             </div>
-
-            <div className="flex flex-row-reverse  justify-between  items-center gap-5 text-[30px] mr-5 lg:mr-10">
+            <div className="flex flex-row-reverse  justify-between  items-center gap-5 text-[30px] ">
               <div className="flex gap-10">
                 <button onClick={replayHandler}>
                   <RiForward15Line />
