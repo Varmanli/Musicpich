@@ -23,7 +23,7 @@ function SliderHeader() {
           <SwiperSlide key={i.id}>
             <SliderMusic
               image={i.image}
-              title={`آهنگ جدید ${i.artist}`}
+              title={`${i.title} با صدای   ${i.artist} `}
               name={i.title}
               id={i.id}
             />
