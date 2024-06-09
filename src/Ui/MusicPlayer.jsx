@@ -93,7 +93,7 @@ function MusicPlayer() {
               <img
                 src={activeSong.image}
                 alt={activeSong.title}
-                className="w-[70px] rounded-full m-2 mx-2"
+                className="w-[70px] rounded-full mb-2 mx-2"
               />
               <div className="felx felx-col gap-5 hidden md:block">
                 <p className="md:text-[20px] font-bold">{activeSong.title}</p>
