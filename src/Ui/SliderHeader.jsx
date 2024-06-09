@@ -2,9 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import SliderMusic from "./SliderMusic";
-import chavoshi from "../images/bibadan.png";
-import qorbani from "../images/qorbani.png";
-import tahmasebi from "../images/tahmasebi.jpg";
 import "swiper/css";
 import { newMusic } from "../data";
 
