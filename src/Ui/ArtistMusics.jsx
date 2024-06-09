@@ -4,14 +4,21 @@ import MusicLandingPage from "../Ui/MusicLandingPage";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { FreeMode, Pagination, Thumbs } from "swiper/modules";
+import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 function ArtistMusics() {
   return (
     <>
       <div>
-        <h4 className="font-bold text-[14px] md:text-[20px] m-5">علیرضا قربانی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">
+          علیرضا قربانی :
+        </h4>
         <Swiper
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             10: {
               slidesPerView: 2,
@@ -28,7 +35,7 @@ function ArtistMusics() {
           }}
           spaceBetween={2}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, Autoplay]}
           className="flex justify-around items-center "
         >
           {dataMusic.map(
@@ -48,8 +55,15 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[14px] md:text-[20px] m-5">همایون شجریان :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">
+          همایون شجریان :
+        </h4>
         <Swiper
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             10: {
               slidesPerView: 2,
@@ -66,7 +80,7 @@ function ArtistMusics() {
           }}
           spaceBetween={2}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, Autoplay]}
           className="flex justify-around items-center "
         >
           {dataMusic.map(
@@ -86,8 +100,15 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[14px] md:text-[20px] m-5">محسن چاوشی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">
+          محسن چاوشی :
+        </h4>
         <Swiper
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             10: {
               slidesPerView: 2,
@@ -104,7 +125,7 @@ function ArtistMusics() {
           }}
           spaceBetween={2}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, Autoplay]}
           className="flex justify-around items-center "
         >
           {dataMusic.map(
@@ -124,8 +145,15 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[14px] md:text-[20px] m-5">علی یاسینی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">
+          علی یاسینی :
+        </h4>
         <Swiper
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             10: {
               slidesPerView: 2,
@@ -142,7 +170,7 @@ function ArtistMusics() {
           }}
           spaceBetween={2}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, Autoplay]}
           className="flex justify-around items-center "
         >
           {dataMusic.map(
@@ -162,8 +190,15 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[14px] md:text-[20px] m-5">عرفان طهماسبی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">
+          عرفان طهماسبی :
+        </h4>
         <Swiper
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             10: {
               slidesPerView: 2,
@@ -180,7 +215,7 @@ function ArtistMusics() {
           }}
           spaceBetween={2}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, Autoplay]}
           className="flex justify-around items-center "
         >
           {dataMusic.map(

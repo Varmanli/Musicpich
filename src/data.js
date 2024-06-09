@@ -62,11 +62,11 @@ export const dataMusic = [
   {
     id: "7",
     artistId: "2",
-    title: "ابر میبارد",
+    title: "کولی",
     music:
-      "https://core.upmusics.com//1000310/file/?Ur=https://irsv.upmusics.com/Downloads/Musics/Homayoun%20Shajarian%20Abr%20Mibarad%20(320).mp3&hst=irsv.upmusics.com&prt=https&cuid=1000310",
+      "https://mediavip-music.igap.net/dibamusics/music/03/01/Homayon%20Shajarian%20-%20Koli%20-%20128.mp3?st=l1tYjfDFyRUTfOvsZy9vqA&e=1717947628&ol=dl.dibasmusic.com",
     image:
-      "https://upmusics.com/wp-content/uploads/2018/01/Homayoun-Shajarian-Rage-Khab.jpg",
+      "https://dibasmusic.com/wp-content/uploads/2024/04/Homayon20Shajarian20-20Koli.jpg",
     artist: "همایون شجریان",
   },
   {
@@ -248,6 +248,154 @@ export const dataMusic = [
     image:
       "https://rozmusic.com/wp-content/uploads/2022/03/Erfan-Tahmasbi-Kojaei.jpg",
     artist: "عرفان طهماسبی",
+  },
+  {
+    id: "26",
+    artistId: "3",
+    title: "اسدالله",
+    music:
+      "https://dl.rozmusic.com/Music/1400/05/07/Mohsen%20Chavoshi%20-%20Asadollah%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2021/07/Mohsen-Chavoshi-Asadollah.jpg",
+    artist: "محسن چاوشی",
+  },
+  {
+    id: "27",
+    artistId: "3",
+    title: "بیست هزار آرزو",
+    music:
+      "https://dl.rozmusic.com/Music/1396/02/28/Mohsen%20Chavoshi%20-%20Bist%20Hezar%20Arezoo%20(128).mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2017/05/Mohsen-Chavoshi-Bist-Hezar-Arezoo.jpg",
+    artist: "محسن چاوشی",
+  },
+  {
+    id: "28",
+    artistId: "3",
+    title: "همخواب",
+    music:
+      "https://dl.rozmusic.com/Music/1396/02/20/Mohsen%20Chavoshi%20-%20Hamkhaab%20(128).mp3",
+    image:
+      "https://upmusics.com/wp-content/uploads/2017/11/mohsen-chavoshi-hamkhaab.jpg",
+    artist: "محسن چاوشی",
+  },
+  {
+    id: "29",
+    artistId: "3",
+    title: "زندان",
+    music:
+      "https://dl.rozmusic.com/Music/1395/12/08/Mohsen%20Chavoshi%20-%20Zendan%20(128).mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2017/02/Mohsen-Chavoshi-Zendan.jpg",
+    artist: "محسن چاوشی",
+  },
+  {
+    id: "30",
+    artistId: "3",
+    title: "باب دلمی",
+    music:
+      "https://dl.rozmusic.com/Music/1400/09/12/Mohsen%20Chavoshi%20-%20Babe%20Delami%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2021/12/Mohsen-Chavoshi-Babe-Delami.jpg",
+    artist: "محسن چاوشی",
+  },
+  {
+    id: "31",
+    artistId: "1",
+    title: "لیلا",
+    music:
+      "https://dl.rozmusic.com/Music/1397/04/25/Alireza%20Ghorbani%20-%20Leyla%20(128).mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2018/07/Alireza-Ghorbani-Leyla-1.jpg",
+    artist: "علیرضا قربانی",
+  },
+  {
+    id: "32",
+    artistId: "1",
+    title: "پل",
+    music:
+      "https://dl.rozmusic.com/Music/1397/12/23/Alireza%20Ghorbani%20-%20Pol%20(128).mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2019/03/Alireza-Ghorbani-Pol.jpg",
+    artist: "علیرضا قربانی",
+  },
+  {
+    id: "33",
+    artistId: "1",
+    title: "مرا ببخش",
+    music:
+      "https://dl.rozmusic.com/Music/1402/06/01/Alireza%20Ghorbani%20-%20Mara%20Bebakhsh%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2023/08/Alireza-Ghorbani-Mara-Bebakhsh-1.jpg",
+    artist: "علیرضا قربانی",
+  },
+  {
+    id: "34",
+    artistId: "1",
+    title: "عشق آسان ندارد",
+    music:
+      "https://dl.rozmusic.com/Music/1397/05/03/Alireza%20Ghorbani%20-%20Eshgh%20Asan%20Nadarad%20(128).mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2018/07/Alireza-Ghorbani-Eshgh-Asan-Nadarad.jpg",
+    artist: "علیرضا قربانی",
+  },
+  {
+    id: "35",
+    artistId: "1",
+    title: "شروع ناگهان",
+    music:
+      "https://dl.rozmusic.com/Music/1399/03/04/Alireza%20Ghorbani%20-%20Shorooe%20Nagahan%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2020/05/Alireza-Ghorbani-Shorooe-Nagahan.jpg",
+    artist: "علیرضا قربانی",
+  },
+  {
+    id: "36",
+    artistId: "2",
+    title: "هوای زمزمه هایت",
+    music:
+      "https://dl.rozmusic.com/Music/1400/01/23/Homayoun%20Shajarian%20-%20Havaye%20Zemzemehayet%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2021/04/Homayoun-Shajarian-Havaye-Zemzemehayet-1.jpg",
+    artist: "همایون شجریان",
+  },
+  {
+    id: "37",
+    artistId: "2",
+    title: "ایران من",
+    music:
+      "https://dl.rozmusic.com/Music/1400/06/26/Homayoun%20Shajarian%20-%20Irane%20Man%20%28128%29.mp3",
+    image: "https://www.mybia2music.com/assets/thumbs/113918481_500.jpg",
+    artist: "همایون شجریان",
+  },
+  {
+    id: "38",
+    artistId: "2",
+    title: "یک نفس آرزوی تو",
+    music:
+      "https://dl.rozmusic.com/Music/1400/04/07/Homayoun%20Shajarian%20-%20Yek%20Nafas%20Arezouye%20To%20%28128%29.mp3",
+    image:
+      "https://rozmusic.com/wp-content/uploads/2021/06/Homayoun-Shajarian-Yek-Nafas-Arezouye-To.jpg",
+    artist: "همایون شجریان",
+  },
+  {
+    id: "39",
+    artistId: "2",
+    title: "ابر میبارد",
+    music:
+      "https://core.upmusics.com//1000310/file/?Ur=https://irsv.upmusics.com/Downloads/Musics/Homayoun%20Shajarian%20Abr%20Mibarad%20(320).mp3&hst=irsv.upmusics.com&prt=https&cuid=1000310",
+    image:
+      "https://upmusics.com/wp-content/uploads/2018/01/Homayoun-Shajarian-Rage-Khab.jpg",
+    artist: "همایون شجریان",
+  },
+  {
+    id: "40",
+    artistId: "2",
+    title: "آتش جاودان",
+    music:
+      "https://mediavip-music.igap.net/dibamusics/music/02/08/Homayoun%20Shajaryan%20-%20Atashe%20Javedan%20-%20128.mp3?st=8w5tnTQzlEbDPnNlCU45yQ&e=1717947772&ol=dl.dibasmusic.com",
+    image: "https://www.mybia2music.com/assets/thumbs/113948251_300.jpg",
+    artist: "همایون شجریان",
   },
 ];
 
