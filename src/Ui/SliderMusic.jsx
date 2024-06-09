@@ -4,7 +4,7 @@ import PlayButton from "./PlayButton";
 import { selectedSongContext } from "../App";
 import DownlodButton from "./DownlodButton";
 
-function SliderMusic({ image, title, name, id }) {
+function SliderMusic({ image, title, music, id }) {
   const { setSongId } = useContext(selectedSongContext);
   return (
     <div className="flex flex-row md:h-[350px]  gap-4 items-center justify-start  md:gap-20">
@@ -21,7 +21,7 @@ function SliderMusic({ image, title, name, id }) {
           <a onClick={() => setSongId(id)}>
             <PlayButton />
           </a>
-          <a href="">
+          <a href={music}>
             <DownlodButton />
           </a>
         </div>

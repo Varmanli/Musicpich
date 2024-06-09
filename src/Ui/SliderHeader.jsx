@@ -25,6 +25,7 @@ function SliderHeader() {
               image={i.image}
               title={`${i.title} با صدای   ${i.artist} `}
               name={i.title}
+              music={i.music}
               id={i.id}
             />
           </SwiperSlide>

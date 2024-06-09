@@ -3,7 +3,7 @@ import PlayButton from "./PlayButton";
 import { selectedSongContext } from "../App";
 import DownlodButton from "./DownlodButton";
 
-function MusicLandingPage({ image, title, id }) {
+function MusicLandingPage({ image, title, id , music }) {
   const { setSongId } = useContext(selectedSongContext);
   return (
     <>

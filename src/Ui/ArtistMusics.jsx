@@ -39,6 +39,7 @@ function ArtistMusics() {
                     title={item.title}
                     image={item.image}
                     artist={item.artist}
+                    music={item.music}
                     id={item.id}
                   />
                 </SwiperSlide>
@@ -76,6 +77,7 @@ function ArtistMusics() {
                     title={item.title}
                     image={item.image}
                     artist={item.artist}
+                    music={item.music}
                     id={item.id}
                   />
                 </SwiperSlide>
@@ -113,6 +115,7 @@ function ArtistMusics() {
                     title={item.title}
                     image={item.image}
                     artist={item.artist}
+                    music={item.music}
                     id={item.id}
                   />
                 </SwiperSlide>
@@ -150,6 +153,7 @@ function ArtistMusics() {
                     title={item.title}
                     image={item.image}
                     artist={item.artist}
+                    music={item.music}
                     id={item.id}
                   />
                 </SwiperSlide>
@@ -187,6 +191,7 @@ function ArtistMusics() {
                     title={item.title}
                     image={item.image}
                     artist={item.artist}
+                    music={item.music}
                     id={item.id}
                   />
                 </SwiperSlide>
