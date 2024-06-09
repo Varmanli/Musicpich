@@ -272,11 +272,11 @@ export const dataMusic = [
   {
     id: "28",
     artistId: "3",
-    title: "همخواب",
+    title: "پستچی",
     music:
-      "https://dl.rozmusic.com/Music/1396/02/20/Mohsen%20Chavoshi%20-%20Hamkhaab%20(128).mp3",
+      "https://dl.rozmusic.com/Music/1401/04/03/Mohsen%20Chavoshi%20-%20Postchi%20%28128%29.mp3",
     image:
-      "https://upmusics.com/wp-content/uploads/2017/11/mohsen-chavoshi-hamkhaab.jpg",
+      "https://rozmusic.com/wp-content/uploads/2022/06/Mohsen-Chavoshi-Postchi.jpg",
     artist: "محسن چاوشی",
   },
   {
