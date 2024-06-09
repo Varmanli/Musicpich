@@ -10,7 +10,7 @@ function ArtistMusics() {
   return (
     <>
       <div>
-        <h4 className="font-bold text-[20px] m-5">علیرضا قربانی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">علیرضا قربانی :</h4>
         <Swiper
           breakpoints={{
             10: {
@@ -48,7 +48,7 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[20px] m-5">همایون شجریان :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">همایون شجریان :</h4>
         <Swiper
           breakpoints={{
             10: {
@@ -86,7 +86,7 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[20px] m-5">محسن چاوشی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">محسن چاوشی :</h4>
         <Swiper
           breakpoints={{
             10: {
@@ -124,7 +124,7 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[20px] m-5">علی یاسینی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">علی یاسینی :</h4>
         <Swiper
           breakpoints={{
             10: {
@@ -162,7 +162,7 @@ function ArtistMusics() {
         </Swiper>
       </div>
       <div>
-        <h4 className="font-bold text-[20px] m-5">عرفان طهماسبی :</h4>
+        <h4 className="font-bold text-[14px] md:text-[20px] m-5">عرفان طهماسبی :</h4>
         <Swiper
           breakpoints={{
             10: {

@@ -7,7 +7,7 @@ import { FreeMode, Pagination, Thumbs } from "swiper/modules";
 function Artist() {
   return (
     <div>
-      <h4 className="font-bold text-[20px] m-5">هنرمندان :</h4>
+      <h4 className="font-bold text-[14px] md:text-[20px] m-5">هنرمندان :</h4>
       <Swiper
         breakpoints={{
           10: {
