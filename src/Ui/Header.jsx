@@ -5,7 +5,7 @@ import { selectedSongContext } from "../App";
 function Header() {
   const { setSongId } = useContext(selectedSongContext);
   function randomSongHandler() {
-    setSongId(+Math.floor(Math.random() * 26));
+    setSongId(+Math.floor(Math.random() * 41));
   }
   return (
     <div className="flex justify-between items-center p-5  font-semibold">

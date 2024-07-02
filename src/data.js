@@ -184,7 +184,7 @@ export const dataMusic = [
     artistId: "4",
     title: "میرسه خبرا",
     music:
-      "https://dl.rozmusic.com/Music/1402/08/02/Ali%20Yasini%20-%20Mirese%20Khabara%20%28Morteza%20Shokri%20Remix%29%20%28128%29.mp3",
+      "https://dl.rozmusic.com/Music/1402/07/11/Ali%20Yasini%20-%20Mirese%20Khabara%20%28128%29.mp3",
     image:
       "https://rozmusic.com/wp-content/uploads/2023/10/Ali-Yasini-Mirese-Khabara-1.jpg",
     artist: "علی یاسینی",
