@@ -56,7 +56,7 @@ export const dataMusic = [
     music:
       "https://dl.rozmusic.com/Music/1399/04/24/Homayoun%20Shajarian%20-%20Ahay%20Khabardar%20%28128%29.mp3",
     image:
-      "https://www.appahang6.com/cdn/tracks-cover/1395/12/7135164790680616031647906806486716479068067864.webp",
+      "https://upmusics.com/wp-content/uploads/2018/01/Homayoun-Shajarian-Rage-Khab.jpg",
     artist: "همایون شجریان",
   },
   {
@@ -184,7 +184,7 @@ export const dataMusic = [
     artistId: "4",
     title: "میرسه خبرا",
     music:
-      "https://core.upmusics.com//1000310/file/?Ur=https://irsv.upmusics.com/AliBZ/Ali%20Yasini%20-%20Mirese%20Khabara%20(320).mp3&hst=irsv.upmusics.com&prt=https&cuid=1000310",
+      "https://dl.rozmusic.com/Music/1402/08/02/Ali%20Yasini%20-%20Mirese%20Khabara%20%28Morteza%20Shokri%20Remix%29%20%28128%29.mp3",
     image:
       "https://rozmusic.com/wp-content/uploads/2023/10/Ali-Yasini-Mirese-Khabara-1.jpg",
     artist: "علی یاسینی",
