@@ -7,7 +7,7 @@ export default {
         "custom-pattern": "url('./src/images/hero-img.png')",
       },
       fontFamily: {
-        shabnam: ["Shabnam", "sans-serif"], // تعریف فونت
+        shabnam: ["Shabnam", "sans-serif"], 
       },
     },
   },
