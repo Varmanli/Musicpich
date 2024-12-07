@@ -82,9 +82,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 input[type="range"] {
-  -moz-appearance: none; 
+  -moz-appearance: none;
 }
 input[type="range"]::-webkit-slider-runnable-track {
   height: 5px;
@@ -98,7 +97,7 @@ input[type="range"]::-webkit-slider-thumb {
   cursor: pointer;
 }
 input[type="range"]::-moz-range-track {
-  background: lightgray; 
+  background: lightgray;
   height: 5px;
   border-radius: 3px;
   -moz-appearance: none;
@@ -107,12 +106,12 @@ input[type="range"]::-moz-range-track {
 input[type="range"]::-moz-range-thumb {
   height: 10px;
   width: 10px;
-  background: green; 
+  background: green;
   border-radius: 50%;
   cursor: pointer;
 }
 input[type="range"]::-moz-range-progress {
-  background: green; 
+  background: green;
   height: 5px;
   border-radius: 3px;
 }

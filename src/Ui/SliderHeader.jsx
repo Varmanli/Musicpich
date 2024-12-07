@@ -1,35 +1,8 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import SliderMusic from "./SliderMusic";
-import "swiper/css";
-import { newMusic } from "../data";
-import img from "../images/hero-img.png";
 import Header from "./Header";
 
 function SliderHeader() {
   return (
     <>
-      {/* <Swiper
-        loop={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay, Pagination]}
-      >
-        {newMusic.map((i) => (
-          <SwiperSlide key={i.id}>
-            <SliderMusic
-              image={i.image}
-              title={`${i.title} با صدای   ${i.artist} `}
-              name={i.title}
-              music={i.music}
-              id={i.id}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper> */}
       <div className="relative  bg-custom-pattern bg-cover bg-center bg-no-repeat h-[100vh] w-full">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10">

@@ -110,12 +110,13 @@ function MusicPlayer() {
               </p>
               <input
                 type="range"
-                className="lg:w-[650px] md:static fixed bottom-[75px] left-0 right-0 w-full outline-none   overflow-hidden bg-black"
+                className="lg:w-[650px] md:static fixed bottom-[75px] left-0 right-0 w-full outline-none bg-black  overflow-hidden "
                 min={0}
                 max={songTime.duration}
                 value={songTime.currentTime}
                 onChange={dragHandler}
               />
+
               <p className="hidden md:flex">{timeFormat(songTime.duration)}</p>
             </div>
             <div className="flex flex-row-reverse items-center ">

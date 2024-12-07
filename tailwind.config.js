@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-pattern": "url('./src/images/hero-img.png')",
+        "custom-pattern": "url('./public/images/hero-img.png')",
       },
       fontFamily: {
-        shabnam: ["Shabnam", "sans-serif"], 
+        shabnam: ["Shabnam", "sans-serif"],
       },
     },
   },

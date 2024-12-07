@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FaRandom } from "react-icons/fa";
-import logo from "../images/Logo.png";
+import logo from "../../public/images/Logo.png";
 import { selectedSongContext } from "../App";
 function Header() {
   const { setSongId } = useContext(selectedSongContext);
