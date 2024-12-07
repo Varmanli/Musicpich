@@ -76,7 +76,7 @@ function MusicPlayer() {
     <>
       {songId && (
         <div className=" fixed bottom-0 right-0 left-0 z-10 bg-[#000] border-t border-green-600 ">
-          <div className="flex flex-row-reverse justify-center  gap-5 w-[100%]  items-center h-[70px]">
+          <div className="flex mt-2 md:mt-0 flex-row-reverse justify-center  gap-5 w-[100%]  items-center h-[70px]">
             <div className="flex flex-row-reverse  justify-between  items-center gap-5 text-lg ">
               <div className="flex gap-5 ">
                 <button onClick={replayHandler}>
@@ -105,19 +105,21 @@ function MusicPlayer() {
               ></audio>
             </div>
             <div className="m-1 flex gap-2 justify-center items-center">
-              <p>{timeFormat(songTime.currentTime)}</p>
+              <p className="hidden md:flex">
+                {timeFormat(songTime.currentTime)}
+              </p>
               <input
                 type="range"
-                className="lg:w-[650px]  outline-none h-2 bg-white rounded-lg overflow-hidden accent-green-500"
+                className="lg:w-[650px] md:static fixed bottom-[75px] left-0 right-0 w-full outline-none   overflow-hidden bg-black"
                 min={0}
                 max={songTime.duration}
                 value={songTime.currentTime}
                 onChange={dragHandler}
               />
-              <p>{timeFormat(songTime.duration)}</p>
+              <p className="hidden md:flex">{timeFormat(songTime.duration)}</p>
             </div>
             <div className="flex flex-row-reverse items-center ">
-              <div className="felx felx-col gap-5 hidden md:block">
+              <div className="felx felx-col gap-5 ">
                 <p className=" font-semibold">{activeSong.title}</p>
                 <p className="">{activeSong.artist}</p>
               </div>

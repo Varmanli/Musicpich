@@ -82,8 +82,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+input[type="range"] {
+  -moz-appearance: none; 
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 5px;
+  border: none;
+  border-radius: 0;
+}
 input[type="range"]::-webkit-slider-thumb {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-track {
+  background: lightgray; 
+  height: 5px;
+  border-radius: 3px;
+  -moz-appearance: none;
   appearance: none;
-  height: 0px;
-  width: 0px;
+}
+input[type="range"]::-moz-range-thumb {
+  height: 10px;
+  width: 10px;
+  background: green; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-progress {
+  background: green; 
+  height: 5px;
+  border-radius: 3px;
 }
