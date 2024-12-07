@@ -75,32 +75,9 @@ function MusicPlayer() {
   return (
     <>
       {songId && (
-        <div className=" fixed bottom-0 right-0 left-0 z-10 bg-gradient-to-r from-slate-500 to-slate-800 border m-1 rounded-lg ">
-          <div className="m-1 flex gap-2 justify-center items-center">
-            <p>{timeFormat(songTime.currentTime)}</p>
-            <input
-              type="range"
-              className="w-[100%]"
-              min={0}
-              max={songTime.duration}
-              value={songTime.currentTime}
-              onChange={dragHandler}
-            />
-            <p>{timeFormat(songTime.duration)}</p>
-          </div>
-          <div className="flex flex-row-reverse justify-center md:gap-[370px] gap-5  items-center h-[70px]">
-            <div className="flex flex-row-reverse items-center md:gap-10">
-              <img
-                src={activeSong.image}
-                alt={activeSong.title}
-                className="w-[70px] rounded-full mb-2 mx-2"
-              />
-              <div className="felx felx-col gap-5 hidden md:block">
-                <p className="md:text-[20px] font-bold">{activeSong.title}</p>
-                <p className="md:text-[17px] ">{activeSong.artist}</p>
-              </div>
-            </div>
-            <div className="flex flex-row-reverse  justify-between  items-center gap-5 text-[30px] ">
+        <div className=" fixed bottom-0 right-0 left-0 z-10 bg-[#000] border-t border-green-600 ">
+          <div className="flex flex-row-reverse justify-center  gap-5 w-[100%]  items-center h-[70px]">
+            <div className="flex flex-row-reverse  justify-between  items-center gap-5 text-lg ">
               <div className="flex gap-5 ">
                 <button onClick={replayHandler}>
                   <RiForward15Line />
@@ -112,17 +89,13 @@ function MusicPlayer() {
                 <button onClick={forwardHandler}>
                   <RiReplay15Fill />
                 </button>
+                <MdClose
+                  onClick={closeHandler}
+                  className=" cursor-pointer text-xl"
+                />
               </div>
             </div>
             <div>
-              <div className=" m-2 font-bold py-2.5 px-5 me-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                <button
-                  onClick={closeHandler}
-                  className="flex justify-center items-center gap-2"
-                >
-                  <p>بستن</p> <MdClose />
-                </button>
-              </div>
               <audio
                 onTimeUpdate={timeUpdateHandler}
                 ref={audioRef}
@@ -130,6 +103,29 @@ function MusicPlayer() {
                 onLoadedMetadata={timeUpdateHandler}
                 loop={true}
               ></audio>
+            </div>
+            <div className="m-1 flex gap-2 justify-center items-center">
+              <p>{timeFormat(songTime.currentTime)}</p>
+              <input
+                type="range"
+                className="lg:w-[650px]  outline-none h-2 bg-white rounded-lg overflow-hidden accent-green-500"
+                min={0}
+                max={songTime.duration}
+                value={songTime.currentTime}
+                onChange={dragHandler}
+              />
+              <p>{timeFormat(songTime.duration)}</p>
+            </div>
+            <div className="flex flex-row-reverse items-center ">
+              <div className="felx felx-col gap-5 hidden md:block">
+                <p className=" font-semibold">{activeSong.title}</p>
+                <p className="">{activeSong.artist}</p>
+              </div>
+              <img
+                src={activeSong.image}
+                alt={activeSong.title}
+                className="w-[50px]  mb-2 mx-2"
+              />
             </div>
           </div>
         </div>

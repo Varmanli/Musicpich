@@ -67,7 +67,7 @@
 }
 body {
   font-family: Vazir;
-  background-color: rgba(19, 19, 19, 1);
+  background-color: rgba(0, 0, 0, 1);
   color: white;
 }
 
@@ -81,4 +81,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  height: 0px;
+  width: 0px;
 }
