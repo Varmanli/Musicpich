@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "custom-pattern": "url('./src/images/hero-img.png')",
+      },
+      fontFamily: {
+        shabnam: ["Shabnam", "sans-serif"], // تعریف فونت
+      },
+    },
   },
   plugins: [],
 };

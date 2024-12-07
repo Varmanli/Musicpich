@@ -61,21 +61,13 @@
   font-weight: 100;
   font-style: normal;
 }
-
+@font-face {
+  font-family: shabnam;
+  src: url("./font/Shabnam-Bold.woff2") format("woff2");
+}
 body {
   font-family: Vazir;
-  background: #000000; 
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
-  );
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); 
-
+  background-color: rgba(19, 19, 19, 1);
   color: white;
 }
 

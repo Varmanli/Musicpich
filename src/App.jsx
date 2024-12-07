@@ -18,7 +18,6 @@ function App() {
   console.log(songId);
   return (
     <selectedSongContext.Provider value={value}>
-      <Header />
       <LandingPage />
       <MusicPlayer />
       <Footer />
