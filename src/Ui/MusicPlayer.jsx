@@ -53,12 +53,11 @@ function MusicPlayer() {
   }
   useEffect(() => {
     if (songId) {
-      // دریافت اطلاعات آهنگ از API (جایگزین URL با آدرس صحیح API)
       fetch(`https://musicpich.liara.run/api/music/${songId}`)
         .then((res) => res.json())
         .then((data) => {
-          setActiveSong(data); // ذخیره اطلاعات آهنگ در activeSong
-          setIsPlaying(true); // شروع پخش
+          setActiveSong(data);
+          setIsPlaying(true);
           if (audioRef.current) {
             audioRef.current.src = data.music_url;
             audioRef.current.play();
