@@ -4,7 +4,6 @@ import { IoPlaySkipBackSharp, IoPlaySkipForward } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { RiForward15Line, RiReplay15Fill } from "react-icons/ri";
 
-import { dataMusic } from "../data";
 import { selectedSongContext } from "../App";
 
 function MusicPlayer() {
