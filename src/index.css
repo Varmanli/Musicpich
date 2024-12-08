@@ -64,6 +64,12 @@
 @font-face {
   font-family: shabnam;
   src: url("./font/Shabnam-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: shabnam;
+  src: url("./font/Shabnam-Medium.woff2") format("woff2");
+  font-weight: normal;
 }
 body {
   font-family: Vazir;

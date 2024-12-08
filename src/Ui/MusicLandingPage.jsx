@@ -15,7 +15,7 @@ function MusicLandingPage({ image, title, id, music }) {
           height={500}
           className="rounded-lg"
         />
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 font-shabnam">
           <p className="font-semibold text-sm md:text-lg ">{title}</p>
           <div className="flex">
             <a onClick={() => setSongId(id)}>
