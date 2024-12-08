@@ -3,6 +3,7 @@ import LandingPage from "./Page/LandingPage";
 import Footer from "./Ui/Footer";
 import Header from "./Ui/Header";
 import MusicPlayer from "./Ui/MusicPlayer";
+import { fetchMusic } from "./services/app";
 
 export const selectedSongContext = createContext();
 
@@ -15,7 +16,7 @@ function App() {
     songId,
     setSongId: selectedIdHandler,
   };
-  console.log(songId);
+  fetchMusic();
   return (
     <selectedSongContext.Provider value={value}>
       <LandingPage />

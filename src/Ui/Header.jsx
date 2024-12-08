@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FaRandom } from "react-icons/fa";
-import logo from "../../public/images/Logo.png";
+import logo from "/images/Logo.png";
 import { selectedSongContext } from "../App";
 function Header() {
   const { setSongId } = useContext(selectedSongContext);
@@ -8,7 +8,7 @@ function Header() {
     setSongId(+Math.floor(Math.random() * 41));
   }
   return (
-    <div className="flex justify-center lg:justify-between items-center p-5  font-semibold">
+    <div className="flex justify-between lg:justify-between items-center p-5  font-semibold">
       <div className="cursor-pointer mb-2">
         <img src={logo} alt="logo" />
       </div>

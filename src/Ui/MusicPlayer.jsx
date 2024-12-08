@@ -18,7 +18,6 @@ function MusicPlayer() {
     const currentTime = e.target.currentTime;
     const duration = e.target.duration;
     setSongTime({ ...songTime, duration, currentTime });
-    console.log(e.target.currentTime);
   }
   function dragHandler(e) {
     audioRef.current.currentTime = e.target.value;
@@ -52,26 +51,25 @@ function MusicPlayer() {
       Math.floor(time / 60) + ":" + ("0" + Math.floor(time % 60)).slice(-2)
     );
   }
-  useEffect(
-    function () {
-      dataMusic.map(
-        (i) =>
-          +i.id === +songId &&
-          setActiveSong({
-            title: i.title,
-            image: i.image,
-            music: i.music,
-            artist: i.artist,
-            id: i.id,
-          })
-      );
-    },
-    [songId]
-  );
+  useEffect(() => {
+    if (songId) {
+      // دریافت اطلاعات آهنگ از API (جایگزین URL با آدرس صحیح API)
+      fetch(`https://musicpich.liara.run/api/music/${songId}`)
+        .then((res) => res.json())
+        .then((data) => {
+          setActiveSong(data); // ذخیره اطلاعات آهنگ در activeSong
+          setIsPlaying(true); // شروع پخش
+          if (audioRef.current) {
+            audioRef.current.src = data.music_url;
+            audioRef.current.play();
+          }
+        })
+        .catch((err) => console.error("خطا در دریافت موسیقی:", err));
+    }
+  }, [songId]);
   function closeHandler() {
     setSongId("");
   }
-
   return (
     <>
       {songId && (
@@ -99,7 +97,7 @@ function MusicPlayer() {
               <audio
                 onTimeUpdate={timeUpdateHandler}
                 ref={audioRef}
-                src={activeSong.music}
+                src={activeSong.music_url}
                 onLoadedMetadata={timeUpdateHandler}
                 loop={true}
               ></audio>
@@ -119,13 +117,13 @@ function MusicPlayer() {
 
               <p className="hidden md:flex">{timeFormat(songTime.duration)}</p>
             </div>
-            <div className="flex flex-row-reverse items-center ">
+            <div className="flex flex-row-reverse items-center font-shabnam ">
               <div className="felx felx-col gap-5 ">
                 <p className=" font-semibold">{activeSong.title}</p>
-                <p className="">{activeSong.artist}</p>
+                <p className="">{activeSong?.artist_id?.name}</p>
               </div>
               <img
-                src={activeSong.image}
+                src={activeSong.cover_url}
                 alt={activeSong.title}
                 className="w-[50px]  mb-2 mx-2"
               />
