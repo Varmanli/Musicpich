@@ -8,7 +8,7 @@ function SliderHeader() {
         <div className="relative z-10">
           <Header />
           <div className="flex flex-col justify-center items-center gap-10 mt-[100px] md:mt-[50px]">
-            <h1 className="font-bold text-xl lg:text-3xl  text-center font-shabnam">
+            <h1 className="font-bold text-2xl lg:text-3xl  text-center font-shabnam">
               جایی که موسیقی زنده می‌شود! <br /> با ما، صدای رویاهایت را کشف کن
             </h1>
             <button
