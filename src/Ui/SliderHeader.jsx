@@ -15,7 +15,7 @@ function SliderHeader() {
             </h1>
             <button
               onClick={scrollToSection}
-              className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-semibold shadow-2xl shadow-green-600 rounded-lg text-lg md:text-xl px-2   md:px-5 py-2.5 text-center me-2 mb-2"
+              className="text-white bg-gradient-to-r from-green-600 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-semibold shadow-2xl shadow-green-600 rounded-lg text-lg md:text-xl px-2   md:px-5 py-2.5 text-center me-2 mb-2"
             >
               شروع گوش دادن
             </button>
