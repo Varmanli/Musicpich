@@ -9,7 +9,9 @@ function SliderHeader() {
           <Header />
           <div className="flex flex-col justify-center items-center gap-10 mt-[100px] md:mt-[50px]">
             <h1 className="font-bold text-2xl lg:text-3xl  text-center font-shabnam">
-              جایی که موسیقی زنده می‌شود! <br /> با ما، صدای رویاهایت را کشف کن
+              جایی که موسیقی زنده می‌شود! <br />
+              با ما، <span className="text-green-600">صدای رویاهایت</span> را
+              کشف کن
             </h1>
             <button
               onClick={scrollToSection}
